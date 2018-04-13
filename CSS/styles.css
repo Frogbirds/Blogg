@@ -34,6 +34,56 @@
 }
 
 .Boxtext{
-    border: solid blue 5px;
+    border: solid black 5px;
     
+}
+
+/*Meny*/
+
+ul {
+width: 650px;
+text-align: center;
+margin: 10px 10px 10px 10px;
+padding: 10px 0 10px 0;
+border-radius: 5px;
+border: 1px solid rgba(105,181,50,1);
+background: rgba(122,199,67,1);
+box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.50);
+}
+
+/* Listelementen <LI> med knapparna */
+.meny li {
+display: inline;
+list-style: none;
+}
+
+.meny li a {
+margin: 0 5px 0 0;
+padding: 2px 2px 2px 2px;
+text-align: center;
+white-space: nowrap;
+line-height: 50px;
+font-family: 'Times New Roman',"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+font-size: 20px;
+color: rgba(66,48,1,1);
+border-radius: 5px;
+}
+
+.meny li a:hover {
+cursor: pointer;
+background: #0094ff;
+color: rgba(0,0,0,1);
+}
+
+.meny a:link, .meny a:visited {
+color: rgba(255,255,255,1);
+text-decoration: none;
+}
+
+.meny a:active {
+color: #0094ff;
+}
+
+.meny a.current {
+background: #0094ff;
 }
