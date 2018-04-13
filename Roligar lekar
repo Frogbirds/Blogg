@@ -2,10 +2,17 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <title> Document</title>
+    <title> Roligar lekar</title>
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    
 </head>
 <body>
+    <p class="Text">Mega mewtwo ex ska ha mewtwo ex och den mega utveckling, gardievor/lunala gx och hoopa ex. Hoopa ex har en ability som gör att när lägga på bench kan söka upp tre ex pokemon och sedan blanda leken. Det finns mer gardievor fast du ska har en ability som gör en psykisk energy till två psykisk energy. LUnanla gx har ability att du kan flytta psykisk energy till andra pokemon. Svagheter är att psykisk typer och långsammat. </p>
+    
+    <p class="Text">Pyroar ska ha pyroar, pyroar break och litleo. Svagheter är att majotet anvädner inte basic pokemon och vattnen typer.</p>
+    
+    <p class="Text">Primal kyogre ska ha . Svagheter är att långsammat och gräs typer.</p>
+    
     
 </body>
 </html>
