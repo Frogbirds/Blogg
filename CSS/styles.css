@@ -1,23 +1,21 @@
 .Sidan{
     position: static;
-    width: 880px;
+    width: 790px;
     font-family: 'Times New Roman';
     font-size: 16px;
 
 }
 .Joltik{
-    position: absolute;
-    float: right;
-    right: 35px;
-    top: 50px;
+float: right
 }
-.TextTillJoltik{
+.TextTillJoltikbox{
     position: absolute;
     float: right;
-    right: 35px;
-    top: 20px;
+    right: 25px;
+    top: 30px;
     font-family: 'Times New Roman';
     font-size: 16px;
+    border: solid white 5px;
     
 }
 .Trevenant{
@@ -26,18 +24,43 @@
     right: 35px;
     top: 400px;
 }
-.TextTillTrevenant{
+.TextTillTrevenantbox{
     position: absolute;
     float: right;
     right: 35px;
     top: 360px;
+    margin: solid white 5px;
 }
 
 .Boxtext{
-    border: solid black 5px;
+    border: solid yellow 5px;
     
 }
+.BattlecompressorBild{
+    float: right;
+}
 
+.Boxtext:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.Boxtext3{
+    border: solid black 5px;
+    margin: 5px;
+    
+}
+.Zorakblid{
+    float: right;
+}
+
+.Boxtext3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*Meny*/
 
 ul {
